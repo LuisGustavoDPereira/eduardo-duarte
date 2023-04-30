@@ -1,0 +1,28 @@
+.servicos > .body
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.servicos .card
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.servicos .text  
+{
+    margin-top: 20px;
+    padding: 0 24px;
+}
+
+.servicos .btn
+{
+    margin-top: 32px;
+}
+
+@media screen and (max-width: 768px) {
+    .servicos .card
+    {
+        margin-top: 20px;
+    }
+}

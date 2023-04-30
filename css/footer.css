@@ -1,0 +1,27 @@
+.footer
+{
+    background-color: var(--Primary);
+    padding: 2%;
+    color: var(--White);
+}
+.footer .links i
+{
+    margin-top: 25px;
+    color: var(--White);
+    padding: 0 5px;
+}
+.footer p
+{
+    margin-top: 10px;
+}
+.footer .redes
+{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.footer-2
+{
+    padding: 1%;
+    border-top: 2px solid var(--White);
+    background-color: var(--Secundary);
+}

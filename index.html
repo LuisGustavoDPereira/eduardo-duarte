@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/boot.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/cta.css">
+    <link rel="stylesheet" href="css/line.css">
+    <link rel="stylesheet" href="css/especialidades.css">
+    <link rel="stylesheet" href="css/servicos.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/cardsite.css">
+    <link rel="stylesheet" href="css/portifolio.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Document</title>
+</head>
+<body id="home">
+    <header>
+        <div class="container">
+            <div class="wtd50f">
+                <div class="logo">
+                    <a href="#">
+                        <img src="assets/Logo.svg" alt="logo">
+                    </a>
+                </div>
+            </div>
+            <div class="wtd50f">
+                <nav class="menu-desktop">
+                    <ul>
+                        <li><button onclick="ScrollHome()">Home</button></li>
+                        <li><button onclick="ScrollEspecialidades()">Especialidades</button></li>
+                        <li><button onclick="ScrollServicos()">Serviços</button></li>
+                        <li><button onclick="ScrollPortifolio()">Portifólio</button></li>
+                        <li><button onclick="ScrollContato()">Contato</button></li>
+                    </ul>
+                </nav>
+                <nav class="menu-mobile">
+                    <h2><i class="fa-solid fa-bars"></i></h2>
+                    <ul>
+                        <li><button onclick="ScrollHome()">Home</button></li>
+                        <li><button onclick="ScrollEspecialidades()">Especialidades</button></li>
+                        <li><button onclick="ScrollServicos()">Serviços</button></li>
+                        <li><button onclick="ScrollPortifolio()">Portifólio</button></li>
+                        <li><button onclick="ScrollContato()">Contato</button></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </header>
+    <main>
+        <section class="cta">
+            <div class="container">
+                <div class="w100 text-center">
+                    <h2>Eduardo Duarte</h2>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </section>
+        <section class="especialidades" id="especialidades">
+            <div class="line">
+                <div class="container">
+                    <div class="w100 text-center">
+                        <h2><i class="fa-solid fa-check"></i> Especialidades</h2>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="container body">
+                <div class="w100 cards">
+                    <div class="card w33">
+                        <div class="w100 text-center">
+                            <i class="fa-brands fa-html5 icon"></i>
+                            <h4>HTML</h4>
+                        </div>
+                        <div class="w100 text-left text">
+                            A linguagem de marcação HTML é a ferramenta primaria com qual se constrói o corpo do website.
+                        </div>
+                    </div>
+                    <div class="card w33">
+                        <div class="w100 text-center">
+                            <i class="fa-brands fa-css3-alt icon"></i>
+                            <h4>CSS</h4>
+                        </div>
+                        <div class="w100 text-left text">
+                            Para estilizar o site a linguagem CSS permite que o site possa ficar do seu estilo e também ganhe mais vida.
+                        </div>
+                    </div>
+                    <div class="card w33">
+                        <div class="w100 text-center">
+                            <i class="fa-brands fa-js icon"></i>
+                            <h4>JavaScript</h4>
+                        </div>
+                        <div class="w100 text-left text">
+                            Java Script permite que o site fique dinâmico e possa fazer mais dos mais variados tipos de animações e funções.
+                        </div>
+                    </div>
+                </div>
+                <div class="w100 cards">
+                    <div class="card w33">
+                        <div class="w100 text-center">
+                            <i class="fa-brands fa-php icon"></i>
+                            <h4>PHP</h4>
+                        </div>
+                        <div class="w100 text-left text">
+                            Com PHP o site fica dinâmico e amigável além de permitir que ele possa por exemplo mandar e-mails, conectar-se ao banco de dados dentre outros.
+                        </div>
+                    </div>
+                    <div class="card w33">
+                        <div class="w100 text-center">
+                            <i class="fa-solid fa-server icon"></i>
+                            <h4>Banco de Dados</h4>
+                        </div>
+                        <div class="w100 text-left text">
+                            Com um banco de dados pode-se guardar informações bem como guardar informações do próprio site.
+                        </div>
+                    </div>
+                    <div class="card w33">
+                        <div class="w100 text-center">
+                            <i class="fa-solid fa-mobile-screen icon"></i>
+                            <h4>Responsivo</h4>
+                        </div>
+                        <div class="w100 text-left text">
+                            Ter um site responsivo é de grande importância para que seu site possa ver visualizado por vários dispositivos de diferentes tamanhos de tela.
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </section>
+        <section class="servicos" id="servicos">
+            <div class="line">
+                <div class="container">
+                    <div class="w100 text-center">
+                        <h2><i class="fa-regular fa-handshake"></i> Serviços</h2>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="container body">
+                <div class="w100 cards">
+                    <div class="w50 card">
+                        <div class="w100 text-center">
+                            <i class="fa-solid fa-globe icon"></i>
+                        </div>
+                        <div class="w100 text-left text">
+                            <p>
+                                Será desenvolvido um website com várias páginas com efeitos em css e javascript, totalmente responsivo e com o uso de um banco de dados para gravar os e-mails de seus clientes juntamente com o uso de tecnologia para disparo de e-mail pelo próprio site.
+                            </p>
+                        </div>
+                        <div class="w100 text-center btn">
+                            <a href="" class="btn-primary"><i class="fa-solid fa-envelope-open-text"></i> Envie uma menssagem!</a>
+                        </div>
+                    </div>
+                    <div class="w50 card">
+                        <div class="w100 text-center">
+                            <i class="fa-solid fa-house icon"></i>
+                        </div >
+                        <div class="w100 text-left text">
+                            <p>
+                                Será criado uma landing page, uma página simples totalmente responsiva e com uso de banco de dados para guardar e-mails de clientes, além do uso da tecnologia de disparo de e-mail, mesmo sendo uma única página ela pode ser muito poderosa.
+                            </p>
+                        </div>
+                        <div class="w100 text-center btn">
+                            <a href="" class="btn-primary"><i class="fa-solid fa-envelope-open-text"></i> Envie uma menssagem!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </section>
+        <section class="portifolio" id="portifolio">
+            <div class="line">
+                <div class="container">
+                    <div class="w100 text-center">
+                        <h2><i class="fa-solid fa-diagram-project"></i> Portifólio</h2>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="container body">
+                <div id="site-cards"></div>
+                <div class="clear"></div>
+            </div>
+        </section>
+        <section class="contato" id="contato">
+            <div class="line">
+                <div class="container">
+                    <div class="w100 text-center">
+                        <h2><i class="fa-regular fa-paper-plane"></i> Contato</h2>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="container body">
+                <div class="w50">
+                    <form action="">
+                        <div class="w50">
+                            <input class="wtd95" type="text" placeholder="Nome"/>
+                        </div>
+                        <div class="w50">
+                            <input class="wtd100" type="text" placeholder="Sobrenome"/>
+                        </div>
+                        <div class="w100">
+                            <input class="wtd100" type="email" name="" placeholder="E-mail"/>
+                        </div>
+                        <div class="w100">
+                            <textarea class="wtd100" placeholder="Menssagem" name="" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="w100">
+                            <input type="submit" value="ENVIAR" class="wtd100 btn-primary" style="padding: 10px 0;"/>
+                        </div>
+                    </form>
+                </div>
+                <div class="w50 text-center links">
+                    <div class="w100">
+                        <a href="" class="w100 btn-primary"><i class="fa-brands fa-linkedin"></i> Linkeding</a>
+                    </div>
+                    <div class="w100">
+                        <a href="" class="w100 btn-primary"><i class="fa-brands fa-github fa-xl"></i> GitHub</a>
+                    </div>
+                    <div class="w100">
+                        <a href="" class="w100 btn-primary"><i class="fa-regular fa-envelope"></i> E-mail</a>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="conteiner">
+                <div class="w50">
+                    <div class="w100 text-center">
+                        <h2>Sobre</h2>
+                    </div>
+                    <div class="w100 text-left">
+                        <p>
+                            Sou Eduardo Duarte, brasileiro estudante do segundo periodo da Univali (Universidade do Vale do Itajaí), do curso de Ciência da Computação, 
+                            formado no Instituto Federal Catarinense IFC como Tecnico em Informatica no curso integrado ao ensino médio, trabalho atualmente na empresa HAVAN, 
+                            comecei a programar websites no ano de 2018 e desde lá venho a cada dia mais melhorando meus conhecimentos e habilidades em programação.
+                        </p>
+                    </div>
+                </div>
+                <div class="w50 redes">
+                    <div class="w100 text-center">
+                        <h2>Redes Sociais</h2>
+                    </div>
+                    <div class="w100 links text-center">
+                        <a href=""><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                        <a href=""><i class="fa-brands fa-github fa-xl"></i></a>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </footer>
+        <footer class="footer-2">
+            <div class="conteiner">
+                <div class="w100 text-center logo">
+                    <a href="">
+                        <img src="assets/Logo.svg" alt="logo"/>
+                    </a>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </footer>
+    </main>
+    <script src="js/scroll.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/portifolio.js"></script>
+</body>
+</html>

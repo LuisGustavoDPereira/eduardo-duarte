@@ -1,0 +1,16 @@
+.cta
+{
+    height: 500px;
+    background-image: url(https://eduardoduarte.com.br/img/code.jpeg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    filter: brightness(60%);
+    -webkit-filter: brightness(60%);
+    -moz-filter: brightness(60%);
+    color: var(--White);
+}
+.cta h2
+{
+    margin-top: 250px;
+}

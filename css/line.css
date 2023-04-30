@@ -1,0 +1,6 @@
+.line
+{
+    background-color: var(--Primary);
+    padding: 2%;
+    color: var(--White);
+}
